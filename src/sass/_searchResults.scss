@@ -10,6 +10,9 @@
 }
 
 .pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: auto;
   padding: 0 3.5rem;
 
@@ -26,6 +29,12 @@
     &--next {
       float: right;
     }
+  }
+
+  &__dots {
+    color: $color-primary;
+    font-size: 2rem;
+    align-self: flex-end;
   }
 }
 

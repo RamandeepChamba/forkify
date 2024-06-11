@@ -134,6 +134,11 @@ body {
   outline: none;
 }
 
+.btn--active, .btn--active:hover {
+  color: #f9f5f3;
+  background-color: #f38e82;
+}
+
 .btn--round {
   cursor: pointer;
   background-image: linear-gradient(to bottom right, #fbdb89, #f48982);
@@ -497,8 +502,11 @@ body {
 }
 
 .pagination {
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: auto;
   padding: 0 3.5rem;
+  display: flex;
 }
 
 .pagination:after {
@@ -513,6 +521,12 @@ body {
 
 .pagination__btn--next {
   float: right;
+}
+
+.pagination__dots {
+  color: #f38e82;
+  align-self: flex-end;
+  font-size: 2rem;
 }
 
 .copyright {

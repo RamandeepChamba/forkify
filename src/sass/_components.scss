@@ -89,7 +89,15 @@
     outline: none;
   }
 }
+.btn--active {
+  background-color: $color-primary;
+  color: $color-grey-light-1;
 
+  &:hover {
+    background-color: $color-primary;
+    color: $color-grey-light-1;
+  }
+}
 .btn--round {
   background-image: $gradient;
   border-radius: 50%;
