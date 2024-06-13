@@ -106,7 +106,6 @@ const controlAddRecipe = async function (data) {
     window.history.pushState(null, '', `#${model.state.recipe.id}`);
 
     // Render bookmarks
-    // - DONOT WORK AS HASH IS STILL THE SAME
     bookmarksView.render(model.state.bookmarks);
 
     // Display success message
